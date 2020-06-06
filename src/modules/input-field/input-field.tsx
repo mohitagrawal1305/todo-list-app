@@ -9,7 +9,6 @@ interface Props {
 
 export const InputField: React.FC<Props> = ( { value, placeholder, onChange, type } ) => {
 
-
     const handleOnChange = ( event: { currentTarget: { value: string; }; } ) => {
         onChange( event.currentTarget.value );
     };

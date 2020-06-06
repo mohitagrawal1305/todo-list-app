@@ -1,0 +1,6 @@
+.ui-dashboard {
+    min-height: 100vh;
+    padding: 20vh 9% 20px 9%;
+    min-width: 260px;
+    box-sizing: border-box;
+}

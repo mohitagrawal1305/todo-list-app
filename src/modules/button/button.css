@@ -1,0 +1,13 @@
+.ui-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f17e27;
+    color: white;
+}

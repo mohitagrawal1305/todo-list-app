@@ -1,0 +1,27 @@
+.ui-choice-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.ui-choice-list__item {
+    min-height: 38px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #8080804f;
+    border-radius: 10px;
+    position: relative;
+}
+.ui-choice-list__item__label {
+    padding: 12px 35px 12px 20px;
+    text-align: justify;
+}
+.ui-choice-list__item--delete {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}

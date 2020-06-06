@@ -1,0 +1,14 @@
+.ui-input-field {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #80808052;
+    
+}
+
+.ui-input-field:focus {
+    border-color: #000;
+}

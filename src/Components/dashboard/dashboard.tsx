@@ -13,7 +13,7 @@ const handleAddNewToDo = (
         const _list = cloneDeep( list );
 
         const checkIfAlreadyExist = _list.filter( (item: { value: string; }) => {
-            return item.value === value;
+            return item.value.toLowerCase() === value.toLowerCase();
         } );
 
         if( 0 === checkIfAlreadyExist.length ) {

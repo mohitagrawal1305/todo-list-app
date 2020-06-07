@@ -4,3 +4,14 @@
     min-width: 260px;
     box-sizing: border-box;
 }
+
+.ui-dashboard__title {
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 580px) {
+	.ui-dashboard__title {
+        font-size: 24px;
+    }
+
+}

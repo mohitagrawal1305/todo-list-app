@@ -5,9 +5,9 @@ This is an todo List application made with html css and typescript in react and 
 ![](images/demo.png)
 
 ## ⌘ Features
-- This application is compatable to run on any browser and in any device special support for IE11 has be added.
+- This application is compatable to run on any browser and in any device( special support for IE11 has be added ).
 - This application is responsive and can adjust to any resolution.
-- This application is also accessible from keyboard for people who can not use mouse or do not want to. Keyboard Accibility guidelines are shared at the end of this document.
+- This application is also accessible from keyboard for people who can not use mouse or do not want to. Keyboard Accessibility guidelines are shared at the end of this document.
 
 ## ⌘ Installing
 - Clone github repository https://github.com/mohitagrawal1305/todo-list-app.
@@ -16,7 +16,7 @@ This is an todo List application made with html css and typescript in react and 
 
 
 ## ⌘ Running the tests
-You can run the test cases my running `npm test` command.
+You can run the test cases by running `npm test` command.
 
 ## ⌘ Project Structure
 This document describes the top-level project structure.
@@ -67,7 +67,7 @@ This folder contains source code for this application.
 ## ⌘ Keyboard Accessibility Guide
 - When application launches Input field is auto focused.
 - you can start typing and press enter to add todo.
-- you can navigate to different component using `tab` key and press enter to submit or select any item.
+- you can navigate to different component using `tab` key and press `enter` key to submit or select any item.
 
 ## ⌘ Future Scope of Improvement
 - Can add edit feature to edit existing todo item.

@@ -3,13 +3,11 @@
     height: 40px;
     border-radius: 10px;
     outline: none;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #80808052;
+    padding: 0 20px;
+    border: 1px solid #B4BBB5;
     font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     
-}
-
-.ui-input-field:focus {
-    border-color: #000;
 }

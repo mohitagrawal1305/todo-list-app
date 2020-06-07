@@ -38,7 +38,7 @@ const renderTitle = ( list: Array<{ value: string, isComplete: boolean }> ) => {
         title = `Total todos remaining: ${ inCompleteTodos.length } out of ${ list.length }`
     }
     return (
-        <h1 className = 'ui-dashboard__title' >
+        <h1 data-testid = 'title' className = 'ui-dashboard__title' >
             { title }
         </h1>
     );

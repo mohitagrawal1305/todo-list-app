@@ -14,6 +14,7 @@ export const InputField: React.FC<Props> = ( { value, placeholder, onChange, typ
     };
     return (
         <input
+            data-testid = 'input'
             className = 'ui-input-field'
             autoFocus = { true }
             type = { type }

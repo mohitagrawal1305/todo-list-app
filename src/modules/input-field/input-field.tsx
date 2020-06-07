@@ -7,11 +7,14 @@ interface Props {
     type?: string
 }
 
+// this functional component return input field
 export const InputField: React.FC<Props> = ( { value, placeholder, onChange, type } ) => {
 
+    // this function will be called when user types something on input field.
     const handleOnChange = ( event: { currentTarget: { value: string; }; } ) => {
         onChange( event.currentTarget.value );
     };
+    
     return (
         <input
             data-testid = 'input'

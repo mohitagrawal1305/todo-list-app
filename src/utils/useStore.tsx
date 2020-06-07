@@ -18,8 +18,6 @@ function useStore( key: string ) {
       
         updateList( item );
     };
-    
-    
 
     return [ list, setList ];
 };

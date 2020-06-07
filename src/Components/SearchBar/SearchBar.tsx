@@ -13,7 +13,7 @@ export const SearchBar: React.FC<Props> = ( { onSubmit } ) => {
     const handleFormSubmit = ( event: { preventDefault: () => void; } ) => {
         event.preventDefault();
         if( inputValue.trim() ) {
-            onSubmit( inputValue );
+            onSubmit( inputValue.trim() );
             setValue( '' );
         }
     };

@@ -14,15 +14,16 @@ test('renders title message', () => {
 
 test( 'prints title Start Adding Todo\'s if list is empty', () => {
     
-    const { getByText } = render(<Dashboard />);
+    const { getByText, queryByText } = render(<Dashboard />);
 
     const _list = localStorage.getItem( 'todoList' );
     const list = _list ? JSON.parse( _list ) : [];
 
     if( 0 === list.length ) {
+
         expect( getByText( 'Start Adding Todo\'s' ) ).toBeInTheDocument();
     } else {
-        expect( getByText( 'Start Adding Todo\'s' ) ).not.toBeInTheDocument()
+        expect( queryByText( 'Start Adding Todo\'s' ) ).toBeNull();
     }
     
 } );
